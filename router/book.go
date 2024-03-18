@@ -18,6 +18,7 @@
    bookGroup.Delete("/:id", deleteBook)
  }
 
+ //stuff
  func getBooks(c *fiber.Ctx) error {
    coll := common.GetDBCollection("books")
 
